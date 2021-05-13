@@ -37,6 +37,10 @@
         "the house that Jack built.\n"
     end
 
+    def malt
+        "the malt that lay in"
+    end
+
     def recite
         1.upto(12).collect { |i| line(i) }.join("\n")
    end    
