@@ -11,7 +11,7 @@
         when 4
             "#{beginning} the cat that killed #{rat} #{malt} #{house}"
         when 5
-            "#{beginning} the dog that worried the cat that killed the rat that ate #{malt} #{house}"
+            "#{beginning} the dog that worried the cat that killed #{rat} #{malt} #{house}"
         when 6
             "#{beginning} the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{malt} #{house}"
         when 7
