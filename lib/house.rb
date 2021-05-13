@@ -42,7 +42,7 @@
     end
 
     def rat
-        "#{rat}"
+        "the rat that ate"
     end
 
 
