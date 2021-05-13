@@ -7,9 +7,9 @@
         when 2
             "#{beginning} #{malt} #{house}"
         when 3
-            "#{beginning} the rat that ate #{malt} #{house}"    
+            "#{beginning} #{rat} #{malt} #{house}"    
         when 4
-            "#{beginning} the cat that killed the rat that ate #{malt} #{house}"
+            "#{beginning} the cat that killed #{rat} #{malt} #{house}"
         when 5
             "#{beginning} the dog that worried the cat that killed the rat that ate #{malt} #{house}"
         when 6
@@ -42,7 +42,7 @@
     end
 
     def rat
-        "the rat that ate"
+        "#{rat}"
     end
 
 
