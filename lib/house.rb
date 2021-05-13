@@ -15,7 +15,7 @@
         when 6
             "#{beginning} the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
         when 7
-            "#{beginning} the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{malt} #{house}"
+            "#{beginning} the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
         when 8
             "#{beginning} the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{malt} #{house}"
         when 9
