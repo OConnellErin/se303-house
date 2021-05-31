@@ -3,42 +3,34 @@
     def line(num)
         case num
         when 1    
-            "#{beginning} #{house}"
+            "This is the house that Jack built.\n"
         when 2
-            "#{beginning} #{malt} #{house}"
+            "This is the malt that lay in the house that Jack built.\n"
         when 3
-            "#{beginning} #{rat} #{malt} #{house}"    
+            "This is #{rat} the malt that lay in the house that Jack built.\n"    
         when 4
-            "#{beginning} the cat that killed #{rat} #{malt} #{house}"
+            "This is the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 5
-            "#{beginning} the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 6
-            "#{beginning} the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 7
-            "#{beginning} the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 8
-            "#{beginning} the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 9
-            "#{beginning} the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 10
-            "#{beginning} the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 11
-            "#{beginning} the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         when 12
-            "#{beginning} the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} #{malt} #{house}"
+            "This is the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{rat} the malt that lay in the house that Jack built.\n"
         end        
-    end
-
-    def beginning()
-        "This is"
     end
 
     def house()
         "the house that Jack built.\n"
-    end
-
-    def malt
-        "the malt that lay in"
     end
 
     def rat
