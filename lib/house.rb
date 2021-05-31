@@ -129,35 +129,68 @@ class RandomPirateShip < RandomHouse
 
  class RandomNouns < RandomHouse
 
-    def noun(disregaurd)
+    def noun
         number = rand(1..11)
-        @repeat_times = @repeat_times + 1
-        if (@repeat_times <= 12)
             case(number)
             when 1
-                "malt that" "lay in"
+                "malt that"
             when 2
-                "rat that" "ate the"
+                "rat that"
             when 3
-                "cat that" "killed the"
+                "cat that"
             when 4
-                "dog that" "worried the"
+                "dog that"
             when 5
-                "cow with the crumpled horn that" "tossed the"    
+                "cow with the crumpled horn that"   
             when 6
-                "maiden all forlorn that" "milked the"
+                "maiden all forlorn that"
             when 7
-                "man all tattered and torn that" "kissed the " 
+                "man all tattered and torn that"
             when 8
-                "priest all shaven and shorn that" "married the"
+                "priest all shaven and shorn that"
             when 9
-                "rooster that crowed in the morn that woke the"
+                "rooster that"
             when 10
-                "farmer sowing his corn that" "kept the"
+                "farmer sowing his corn that"
             when 11
-                "horse and the hound and the horn that" "belonged to the"
-            end
-        end        
+                "horse and the hound and the horn that"
+            end      
     end
+
+    def verb()
+        number = rand(1..11)
+            case(number)
+            when 1
+                "lay in"
+            when 2
+                "ate the"
+            when 3
+                "killed the"
+            when 4
+                "worried the"
+            when 5
+                "tossed the"    
+            when 6
+                "milked the"
+            when 7
+                "kissed the" 
+            when 8
+                "married the"
+            when 9
+                "crowed in the morn that woke the"
+            when 10
+                "kept the"
+            when 11
+                "belonged to the"
+            end
+    end
+
+    
+    def line()    
+            "#{@beginning} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} #{noun} #{verb} house that Jack built"
+    end
+
  end
+
+ puts(RandomNouns.new.line)
 
