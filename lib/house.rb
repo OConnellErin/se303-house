@@ -9,23 +9,23 @@
         when 3
             "This is the #{noun(2)} #{noun(1)} the house that Jack built.\n"    
         when 4
-            "This is the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 5
-            "This is the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 6
-            "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the cow with the crumpled horn that tossed the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 7
-            "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 8
-            "This is the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 9
-            "This is the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 10
-            "This is the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 11
-            "This is the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         when 12
-            "This is the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the #{noun(2)} #{noun(1)} the house that Jack built.\n"
+            "This is the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the #{noun(3)} #{noun(2)} #{noun(1)} the house that Jack built.\n"
         end        
     end
 
@@ -39,6 +39,8 @@
         "malt that lay in"
     when 2
         "rat that ate the"
+    when 3
+         "cat that killed the"
 
     end        
 
