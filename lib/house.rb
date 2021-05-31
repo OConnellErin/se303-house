@@ -25,7 +25,7 @@
         when 11
             "This is the #{noun(10)} the house that Jack built.\n"
         when 12
-            "This is the horse and the hound and the horn that belonged to the #{noun(10)} the house that Jack built.\n"
+            "This is the #{noun(11)} the house that Jack built.\n"
         end        
     end
 
@@ -55,6 +55,8 @@
         "rooster that crowed in the morn that woke the #{noun(8)}"
     when 10
         "farmer sowing his corn that kept the #{noun(9)}"
+    when 11
+        "horse and the hound and the horn that belonged to the #{noun(10)}"
     end        
 
    end 
