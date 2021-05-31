@@ -82,6 +82,7 @@ class RandomHouse < House
     attr_accessor :repeat_times
    
     def initialize
+        @repeat_times = 0
         num = rand(1..2)
         case num 
         when num == 1
@@ -95,8 +96,8 @@ class RandomHouse < House
     
     def noun(disregaurd)
         number = rand(1..11)
-        @repeat_times++
-        if @repeat_times < 12
+        @repeat_times = @repeat_times + 1
+        if (@repeat_times <= 12)
             case(number)
             when 1
                 "malt that lay in"
@@ -124,3 +125,5 @@ class RandomHouse < House
         end        
     end
 end
+
+puts(RandomHouse.new.line(6))
