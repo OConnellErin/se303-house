@@ -5,7 +5,7 @@
         when 1    
             "This is the house that Jack built.\n"
         when 2
-            "This is the malt that lay in the house that Jack built.\n"
+            "This is the #{noun(1)} in the house that Jack built.\n"
         when 3
             "This is the rat that ate the malt that lay in the house that Jack built.\n"    
         when 4
@@ -31,5 +31,13 @@
 
     def recite
         1.upto(12).collect { |i| line(i) }.join("\n")
-   end    
+   end
+   
+   def noun(num)
+    case(num)
+    when 1
+        "malt that lay"
+    end        
+
+   end 
  end
