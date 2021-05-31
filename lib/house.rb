@@ -19,13 +19,13 @@
         when 8
             "This is the #{noun(7)} the house that Jack built.\n"
         when 9
-            "This is the priest all shaven and shorn that married the #{noun(7)} the house that Jack built.\n"
+            "This is the #{noun(8)} the house that Jack built.\n"
         when 10
-            "This is the rooster that crowed in the morn that woke the priest all shaven and shorn that married the #{noun(7)} the house that Jack built.\n"
+            "This is the rooster that crowed in the morn that woke the #{noun(8)} the house that Jack built.\n"
         when 11
-            "This is the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the #{noun(7)} the house that Jack built.\n"
+            "This is the farmer sowing his corn that kept the rooster that crowed in the morn that woke the #{noun(8)} the house that Jack built.\n"
         when 12
-            "This is the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the #{noun(7)} the house that Jack built.\n"
+            "This is the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the #{noun(8)} the house that Jack built.\n"
         end        
     end
 
@@ -49,6 +49,8 @@
         "maiden all forlorn that milked the #{noun(5)}"
     when 7
         "man all tattered and torn that kissed the #{noun(6)}" 
+    when 8
+        "priest all shaven and shorn that married the #{noun(7)}"
     end        
 
    end 
