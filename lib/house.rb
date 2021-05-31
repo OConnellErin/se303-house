@@ -83,7 +83,7 @@ class RandomHouse < House
    
     def initialize
         @repeat_times = 0
-        @beginning = "This here is"
+        @beginning = "This is"
     end
     
     def noun(disregaurd)
