@@ -1,6 +1,11 @@
  class House
 
     def line(num)
+
+        def init
+
+        end
+            
         case num
         when 1    
             "This is the house that Jack built.\n"
@@ -65,4 +70,3 @@
  class PirateShip < House
 
  end
- 
