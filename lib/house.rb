@@ -191,6 +191,3 @@ class RandomPirateShip < RandomHouse
     end
 
  end
-
- puts(RandomNouns.new.line)
-
