@@ -83,15 +83,7 @@ class RandomHouse < House
    
     def initialize
         @repeat_times = 0
-        num = rand(1..2)
-        case num 
-        when num == 1
-            @beginning = "This is"
-        when num == 2
-            @beginning = "Thare be"
-        else
-            @beginning = "This here is"
-        end
+        @beginning = "This here is"
     end
     
     def noun(disregaurd)
