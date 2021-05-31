@@ -2,37 +2,38 @@
 
     attr_accessor :beginning
 
-    def line(num)
+    def initialize
+        @beginning = "This is"
+    end
 
-        def initialize
-            @beginning = "This is the"
-        end
+
+    def line(num)
 
         case num
         when 1    
-            "#{@beginning} house that Jack built.\n"
+            "#{@beginning} the house that Jack built.\n"
         when 2
-            "#{@beginning} #{noun(1)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(1)} the house that Jack built.\n"
         when 3
-            "#{@beginning} #{noun(2)} the house that Jack built.\n"    
+            "#{@beginning} the #{noun(2)} the house that Jack built.\n"    
         when 4
-            "#{@beginning} #{noun(3)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(3)} the house that Jack built.\n"
         when 5
-            "#{@beginning} #{noun(4)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(4)} the house that Jack built.\n"
         when 6
-            "#{@beginning} #{noun(5)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(5)} the house that Jack built.\n"
         when 7
-            "#{@beginning} #{noun(6)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(6)} the house that Jack built.\n"
         when 8
-            "#{@beginning} #{noun(7)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(7)} the house that Jack built.\n"
         when 9
-            "#{@beginning} #{noun(8)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(8)} the house that Jack built.\n"
         when 10
-            "#{@beginning} #{noun(9)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(9)} the house that Jack built.\n"
         when 11
-            "#{@beginning} #{noun(10)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(10)} the house that Jack built.\n"
         when 12
-            "#{@beginning} #{noun(11)} the house that Jack built.\n"
+            "#{@beginning} the #{noun(11)} the house that Jack built.\n"
         end        
     end
 
@@ -70,5 +71,9 @@
  end
 
  class PirateShip < House
+
+    def initialize
+        @beginning = "Thar be the"
+    end      
 
  end
