@@ -126,3 +126,38 @@ class RandomPirateShip < RandomHouse
     end 
     
  end
+
+ class RandomNouns < RandomHouse
+
+    def noun(disregaurd)
+        number = rand(1..11)
+        @repeat_times = @repeat_times + 1
+        if (@repeat_times <= 12)
+            case(number)
+            when 1
+                "malt that" "lay in"
+            when 2
+                "rat that" "ate the"
+            when 3
+                "cat that" "killed the"
+            when 4
+                "dog that" "worried the"
+            when 5
+                "cow with the crumpled horn that" "tossed the"    
+            when 6
+                "maiden all forlorn that" "milked the"
+            when 7
+                "man all tattered and torn that" "kissed the " 
+            when 8
+                "priest all shaven and shorn that" "married the"
+            when 9
+                "rooster that crowed in the morn that woke the"
+            when 10
+                "farmer sowing his corn that" "kept the"
+            when 11
+                "horse and the hound and the horn that" "belonged to the"
+            end
+        end        
+    end
+ end
+
