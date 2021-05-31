@@ -1,36 +1,38 @@
  class House
 
+    attr_accessor :beginning
+
     def line(num)
 
-        def init
-
+        def initialize
+            @beginning = "This is the"
         end
-            
+
         case num
         when 1    
-            "This is the house that Jack built.\n"
+            "#{@beginning} house that Jack built.\n"
         when 2
-            "This is the #{noun(1)} the house that Jack built.\n"
+            "#{@beginning} #{noun(1)} the house that Jack built.\n"
         when 3
-            "This is the #{noun(2)} the house that Jack built.\n"    
+            "#{@beginning} #{noun(2)} the house that Jack built.\n"    
         when 4
-            "This is the #{noun(3)} the house that Jack built.\n"
+            "#{@beginning} #{noun(3)} the house that Jack built.\n"
         when 5
-            "This is the #{noun(4)} the house that Jack built.\n"
+            "#{@beginning} #{noun(4)} the house that Jack built.\n"
         when 6
-            "This is the #{noun(5)} the house that Jack built.\n"
+            "#{@beginning} #{noun(5)} the house that Jack built.\n"
         when 7
-            "This is the #{noun(6)} the house that Jack built.\n"
+            "#{@beginning} #{noun(6)} the house that Jack built.\n"
         when 8
-            "This is the #{noun(7)} the house that Jack built.\n"
+            "#{@beginning} #{noun(7)} the house that Jack built.\n"
         when 9
-            "This is the #{noun(8)} the house that Jack built.\n"
+            "#{@beginning} #{noun(8)} the house that Jack built.\n"
         when 10
-            "This is the #{noun(9)} the house that Jack built.\n"
+            "#{@beginning} #{noun(9)} the house that Jack built.\n"
         when 11
-            "This is the #{noun(10)} the house that Jack built.\n"
+            "#{@beginning} #{noun(10)} the house that Jack built.\n"
         when 12
-            "This is the #{noun(11)} the house that Jack built.\n"
+            "#{@beginning} #{noun(11)} the house that Jack built.\n"
         end        
     end
 
