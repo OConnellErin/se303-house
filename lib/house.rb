@@ -81,7 +81,7 @@
 class RandomHouse < House
    
     def initialize
-        num = rand(1,2)
+        num = rand(1..2)
         case num 
         when num == 1
             @beginning = "This is"
@@ -93,7 +93,7 @@ class RandomHouse < House
     end
     
     def noun(disregaurd)
-        number = rand(1,11)
+        number = rand(1..11)
         case(number)
         when 1
             "malt that lay in"
