@@ -73,7 +73,23 @@
  class PirateShip < House
 
     def initialize
-        @beginning = "Thar be the"
+        @beginning = "Thar be"
     end      
 
  end
+
+class RandomHouse < House
+   
+    def initialize
+        num = rand(1,2) 
+        if num == 1
+            @beginning = "This is"
+        elsif num == 2
+            @beginning = "Thare be"
+        else
+            @beginning = "This here is"
+        end
+    end
+    
+    
+end
